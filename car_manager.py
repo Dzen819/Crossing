@@ -5,7 +5,7 @@ STARTING_MOVE_DISTANCE = 5
 MOVE_INCREMENT = 10
 
 
-class CarManager():
+class CarManager:
     def __init__(self):
         self.cars = []
         self.start_speed = STARTING_MOVE_DISTANCE
