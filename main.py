@@ -13,7 +13,6 @@ screen.listen()
 player = Player()
 score = Scoreboard()
 car = CarManager()
-n_loop = 0
 
 
 
@@ -29,4 +28,5 @@ while game_is_on:
     screen.update()
     car.create_car()
     car.move()
+
     
